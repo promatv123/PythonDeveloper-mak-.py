@@ -1,1 +1,6 @@
 # PythonDeveloper-mak-.py
+
+IservNG
+Данный репозиторий предназначен для хранения истории создания проектов группы Нового Города 17:30
+
+Главный репозиторий: https://github.com/Drugoi-Polz/IservNG
