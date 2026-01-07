@@ -1,4 +1,5 @@
 import data
+import random
 
 quest_index = 0
 quest_data = data.questions
@@ -9,6 +10,8 @@ def generate_quest(QUEST, buttons):
         QUEST.config(text=quest)
         for i in range(len(buttons)):
             buttons[i].config(text=quest_data[quest_index]["answers"][i])
+        random.choice(quest = quest_data[quest_index]["quest"])
+
 
     else:
         QUEST.config(text = "Викторина закончина!")
